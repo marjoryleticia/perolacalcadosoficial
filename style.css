@@ -1,0 +1,28 @@
+/* ======================================
+   Estilos personalizados - Pérola Calçados
+   ====================================== */
+
+/* Fonte e ajustes globais */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Efeito suave nas imagens dos produtos ao passar o mouse */
+.grid img {
+  transition: transform 0.3s ease;
+}
+
+.grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo do resultado do CEP */
+#resultado {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#resultado.erro {
+  color: #b91c1c; /* vermelho para mensagens de erro */
+  font-weight: bold;
+}
