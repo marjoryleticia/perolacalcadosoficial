@@ -1,40 +1,46 @@
-Pérola Calçados
-Descrição do Projeto
-Este projeto consiste em um site simples desenvolvido para a disciplina de Desenvolvimento Web. O objetivo foi criar uma página para uma loja de calçados utilizando HTML, CSS, JavaScript e consumo de API.
+# Pérola Calçados
 
-Tecnologias Utilizadas
-HTML
+## Descrição do Projeto
 
-CSS
+Este projeto foi desenvolvido para a disciplina de Desenvolvimento Web com o objetivo de criar um site simples para uma loja de calçados.
 
-JavaScript
+O site apresenta informações da loja, exibe alguns produtos e possui uma funcionalidade de consulta de CEP utilizando a API ViaCEP.
 
-Tailwind CSS
+## Tecnologias Utilizadas
 
-API ViaCEP
+* HTML
+* CSS
+* JavaScript
+* Tailwind CSS
+* API ViaCEP
 
-Funcionalidades
-Exibição de informações da loja.
+## Funcionalidades
 
-Apresentação de produtos.
+* Exibição do nome e apresentação da loja.
+* Exibição de produtos.
+* Consulta de CEP.
+* Exibição de rua, bairro, cidade e estado retornados pela API.
 
-Consulta de endereço por CEP utilizando a API ViaCEP.
+## Como Executar o Projeto
 
-Exibição de rua, bairro, cidade e estado.
+1. Baixe os arquivos do projeto.
+2. Abra a pasta no Visual Studio Code.
+3. Abra o arquivo `index.html` em um navegador.
+4. Digite um CEP válido no campo de consulta.
+5. Clique em **Buscar CEP** para visualizar o endereço.
 
-Como Executar
-Baixar os arquivos do projeto.
+## Estrutura do Projeto
 
-Abrir a pasta no VS Code.
+* `index.html` – Estrutura da página.
+* `style.css` – Estilização da página.
+* `script.js` – Lógica da aplicação e consumo da API ViaCEP.
 
-Executar o arquivo index.html em um navegador.
+## API Utilizada
 
-Estrutura do Projeto
-index.html: estrutura da página.
+### ViaCEP
 
-style.css: estilização da página.
+API gratuita utilizada para consultar endereços a partir de um CEP informado pelo usuário.
 
-script.js: funcionalidades e integração com a API.
+## Autor
 
-Autor
-Projeto desenvolvido por Marjory Letícia para a disciplina de Desenvolvimento Web.
+Projeto desenvolvido por **SEU NOME** para a disciplina de Desenvolvimento Web.
